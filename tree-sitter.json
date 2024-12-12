@@ -1,0 +1,34 @@
+{
+  "grammars": [
+    {
+      "name": "brewfile",
+      "camelcase": "Brewfile",
+      "scope": "source.brewfile",
+      "file-types": [
+        "Brewfile"
+      ],
+      "injection-regex": "^brewfile$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter parser for Brewfile",
+    "authors": [
+      {
+        "name": "Nicolas Marien"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-brewfile"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
